@@ -1,0 +1,14 @@
+{
+    "request":{
+        "method":"POST",
+        "url":"/flowers"
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName":"flowers.json",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+
+}

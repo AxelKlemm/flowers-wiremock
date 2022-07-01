@@ -1,0 +1,10 @@
+services:
+  wiremock:
+    container_name: flower-wiremock
+    hostname: flower-wiremock
+    image: wiremock/wiremock
+    volumes:
+    - ./stubs:/home/wiremock
+    ports:
+    - "9010:8080"
+    command: --enable-stub-cors
